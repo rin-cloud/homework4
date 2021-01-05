@@ -8,6 +8,14 @@
         <title>プロフィール新規作成画面</title>
     </head>
     <body>
-        <h1>プロフィール新規作成</h1>
+        <h1>プロフィールページ</h1>
+        @extends('layouts.profile')
+
+
+{{-- profile.blade.phpの@yield('title')に'ニュースの新規作成'を埋め込む --}}
+@section('title', 'ニュースの新規作成')
+
+{{-- profile.blade.phpの@yield('content')に以下のタグを埋め込む --}}
+@section('profile')
     </body>
 </html>
