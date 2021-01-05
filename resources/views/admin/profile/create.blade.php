@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
         @extends('layouts.profile')
 
 
